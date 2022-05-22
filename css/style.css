@@ -668,7 +668,7 @@ ul.top-info li p.info-text {
 
 .header-one,
 .header-one .site-navigation {
-  background: #23282d;
+  background: lightgrey;
 }
 
 .header-one .navbar-collapse {
@@ -729,7 +729,7 @@ ul.navbar-nav > li > a {
 
 ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a {
-  color: #ffb600 !important;
+  color: darkgreen !important;
 }
 
 /*-- Logo --*/
@@ -816,6 +816,8 @@ ul.top-info-box li .info-box .info-box-content {
   display: inline-block;
   font-family: "Montserrat", sans-serif;
   flex-direction: column;
+  font-family: cursive;
+  color: pink;
 }
 
 ul.top-info-box li .info-box .info-box-title {
@@ -829,7 +831,7 @@ ul.top-info-box li .info-box .info-box-subtitle {
   line-height: normal;
   font-size: 15px;
   font-weight: 700;
-  color: #111;
+  color: yellowgreen;
 }
 
 /*-- Search start --*/
@@ -890,13 +892,15 @@ ul.top-info-box > li.nav-search i {
 
 ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a {
-  color: #ffb600;
+  color: darkgreen;
   position: relative;
 }
 
 ul.navbar-nav > li {
   padding: 0 13px;
   position: relative;
+  color: #252525;
+  font-family: cursive;
 }
 
 @media (max-width: 1200px) {
@@ -905,6 +909,8 @@ ul.navbar-nav > li {
   }
   ul.navbar-nav > li .nav-link {
     font-size: 12px;
+    color: #252525;
+  font-family: cursive;
   }
 }
 
@@ -948,7 +954,7 @@ ul.navbar-nav > li > a i {
   }
   .header-two ul.navbar-nav > li.active > a i,
   .header-two ul.navbar-nav > li > a.active i {
-    color: #ffb600;
+    color: darkgreen;
   }
 }
 
@@ -1069,7 +1075,7 @@ ul.navbar-nav > li > a {
 
 .dropdown-menu li a:hover,
 .dropdown-menu li a:focus {
-  color: #ffb600;
+  color: darkgreen;
 }
 
 @media (min-width: 991px) {
@@ -1363,7 +1369,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slider.border:hover {
-  background: #ffb600;
+  background: darkgreen;
   border: 2px solid transparent;
 }
 
@@ -1404,7 +1410,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .slick-dots li button:hover:before, .slick-dots .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #ffb600;
+  color: darkgreen;
 }
 
 .slick-slide {
@@ -1541,7 +1547,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .call-to-action-box .action-style-box {
-  background: #ffb600;
+  background: yellowgreen;
   padding: 30px;
 }
 
