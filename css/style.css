@@ -1565,6 +1565,9 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .ts-intro {
   padding-right: 20px;
 }
+.ts-intro h3{
+  color: darkgoldenrod;
+}
 
 .into-title {
   font-weight: 300;
@@ -1572,15 +1575,18 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 18px;
   line-height: normal;
   margin: 0;
+  color:#dadada
 }
 
-.into-sub-title {
+.into-sub-title{
   font-weight: 900;
   text-transform: uppercase;
   font-size: 32px;
   line-height: normal;
   margin: 10px 0;
+ 
 }
+
 
 /*-- Featured Tab --*/
 .featured-tab {
@@ -1709,13 +1715,22 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .ts-service-box .ts-service-icon i {
   font-size: 36px;
   float: left;
-  color: #ffb600;
+  color: green;
 }
 
-.ts-service-box .ts-service-box-content {
+.ts-service-box .ts-service-box-content{
   margin-left: 62px;
   margin-bottom: 30px;
+  font-family: serif;
+ 
 }
+.ts-service-box .ts-service-box-content h3{
+  color:aquamarine;
+  font-family: cursive;
+ 
+}
+
+
 
 .tab-content .ts-service-box .ts-service-box-content {
   margin-left: 90px;
